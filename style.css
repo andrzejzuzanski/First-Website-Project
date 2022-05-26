@@ -3,3 +3,21 @@ body {
   display: flex;
   flex-direction: column;
 }
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 100px;
+}
+.header-links ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding-left: 0;
+}
+a {
+  text-decoration: none;
+}
+.header-links {
+  padding-right: 15px;
+}
