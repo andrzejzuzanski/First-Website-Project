@@ -115,6 +115,7 @@ a:hover {
   flex-direction: column;
   padding-right: 300px;
   padding-left: 300px;
+  padding-bottom: 30px;
 }
 .second-container p {
   font-size: 42px;
@@ -152,4 +153,27 @@ a:hover {
 .initiatives :hover {
   background-color: rgba(77, 148, 176, 0.5);
   border-radius: 20px;
+}
+/*THIRD CONTAINER */
+.third-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 400px;
+  padding-right: 400px;
+  background-color: #E1E1E1;
+  padding-bottom: 20px;
+}
+.third-container .quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  padding-top: 0;
+  margin-top: 20;
+  margin-bottom: 0;
+  justify-content: center;
+}
+.third-container .name {
+  text-align: right;
+  margin-top: 0;
 }
