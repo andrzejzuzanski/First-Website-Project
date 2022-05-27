@@ -1,3 +1,3 @@
 # First-Website-Project
 
-First website created using Boxflex.
+First website created using Flexbox and CSS.
