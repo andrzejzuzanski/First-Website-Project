@@ -113,9 +113,10 @@ a:hover {
   background-color: #FFFFFF;
   display: flex;
   flex-direction: column;
-  padding-right: 300px;
+  padding-top: 40px;
+  padding-bottom: 100px;
   padding-left: 300px;
-  padding-bottom: 30px;
+  padding-right: 300px;
 }
 .second-container p {
   font-size: 42px;
@@ -159,21 +160,76 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 400px;
-  padding-right: 400px;
   background-color: #E1E1E1;
-  padding-bottom: 20px;
+  padding: 60px 400px;
 }
 .third-container .quote {
   font-size: 36px;
   font-style: italic;
   color: #1F2937;
-  padding-top: 0;
-  margin-top: 20;
   margin-bottom: 0;
   justify-content: center;
 }
 .third-container .name {
   text-align: right;
   margin-top: 0;
+}
+/*FOURTH CONTAINER */
+.fourth-container {
+  background-color: #FFFFFF;
+  padding: 60px 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner {
+  background-color: #3882F6;
+  display: flex;
+  flex: 1;
+  border-radius: 8px;
+  padding: 20px 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+.fourth-container .text {
+  display: flex;
+  flex-direction: column;
+  color: #E1E1E1;
+  margin: 0;
+  padding: 0;
+}
+.fourth-container h2{
+  margin-bottom: 0;
+}
+.fourth-container p {
+  margin-top: 10px;
+}
+.fourth-container button {
+  width: 150px;
+  height: 40px;
+  border-radius: 12px;
+  background-color: #3882F6;
+  border: 2px solid #F8F9F7;
+  font-size: 18px;
+  color: #F8F9F7;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+    background-color: #1F2937;
+    padding: 15px 300px;
+    color: #F8F9F7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .left-text {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+}
+.footer .left-text p {
+  margin: 5px;
 }
